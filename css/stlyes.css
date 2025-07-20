@@ -112,5 +112,43 @@ blockquote{
     color: var(--text-color);
 }
 
-/*this is for the link styling active, hover, visited*/
+/*
+this is for the link styling active, hover, visited
+colors are picked and codes were pulled from google
+*/
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:visited {
+    color: #8b0000;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+a:active {
+    color: #ff4500;
+}
+
+/* This is all my list styling*/
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.5rem 0;
+    border-bottom: 0.1rem dotted var(--accent-color);
+    color: var(--text-color);
+}
+
+/*this is the table styling*/
+table{
+    
+}
