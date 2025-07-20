@@ -89,3 +89,20 @@ h1{
     text-align: center;
     margin: 0;
 }
+
+h2{
+    color: var(--primary-color);/*to make sure the heading are red*/
+    font-variant: small-caps;
+    border-bottom: 0.1 solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin: 1rem;
+}
+
+/*Starting the blockqouting styling*/
+
+blockquote{
+
+
+
+    
+}
