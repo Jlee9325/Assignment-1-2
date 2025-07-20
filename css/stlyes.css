@@ -9,7 +9,11 @@
 
 :root { 
     font: normal normal normal 20px/1.5 Arial, Helvetica, sans-serif;
-    /*all color codes were googled for the colors I wanted to use*/
+    /*
+    all color codes were googled for the colors I wanted to use
+    these will be the varibles i will be using though out the assignment for the styling
+    */
+    
     --primary-color: #d52b1e;
     --secondary-color: #a71f15;
     --accent-color: #f8d7da;
@@ -45,8 +49,12 @@ header {
 /*This is for the main content area*/
 
 main{
-
-
-
-    
+    width: 67%;
+    float: left;
+    padding: 0.25rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0);
 }
+
+/*This is for the sidebar*/
