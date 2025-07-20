@@ -150,5 +150,33 @@ ul li {
 
 /*this is the table styling*/
 table{
-    
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
 }
+
+th{
+    text-align: left;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    border: 0.1 solid var(--secondary-color)
+}
+
+td{
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid #ddd;
+    color: var(--text-color);
+}
+
+tr:nth-child(even) {
+    background-color: var(--accent-color);
+}
+
+tr:hover{
+    background-color: rgba(213,43,30,0.3);
+}
+
+/*form styling*/
