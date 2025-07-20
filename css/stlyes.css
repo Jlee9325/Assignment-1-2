@@ -71,7 +71,18 @@ aside{
 /*this is the floats for the footer*/
 
 footer{
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    margin-top: 1rem;
+    border-radius: var(--border-radius);
+}
 
+/*Starting the heading styling*/
+
+h1{
 
     
 }
