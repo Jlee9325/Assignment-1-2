@@ -11,7 +11,16 @@
     font: normal normal normal 20px/1.5 Arial, Helvetica, sans-serif;
     /*all color codes were googled for the colors I wanted to use*/
     --primary-color: #d52b1e;
-    
+    --secondary-color: #a71f15;
+    --accent-color: #f8d7da;
+    --text-color: #000000;
+    --light-bg: #fff9f9;
+    --border-radius: 0.3rem;
+}
+
+/*Body Styling*/
+
+body {
 
 
 
