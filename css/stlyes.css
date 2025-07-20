@@ -51,7 +51,7 @@ used rem to pad the scale with the font size
 */
 header {
     background-color: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    color:white;
+    color: #000000;
     text-align: center;
     padding: 1.5rem 0;
     margin-bottom: 1rem;
@@ -100,7 +100,7 @@ Starting the heading styling
 
 h1{
     font-size: 3rem;
-    color:white;
+    color:var(--primary-color);
     padding: 0.5rem;
     text-align: center;
     margin: 0;
