@@ -58,3 +58,20 @@ main{
 }
 
 /*This is for the sidebar*/
+
+aside{
+    width: 27%;
+    float: right;
+    padding: 0.25rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0);
+}
+
+/*this is the floats for the footer*/
+
+footer{
+
+
+    
+}
