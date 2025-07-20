@@ -4,6 +4,16 @@
 
 */
 
+/*
+    Used rem for spacing for the typography
+    used % for the widths 
+    used px for borders and fixed sizing
+
+
+
+*/
+
+
 
 /* Root element Styling with arial font */
 
@@ -22,7 +32,8 @@
     --border-radius: 0.3rem;
 }
 
-/*Body Styling*/
+/*Body Styling
+*/
 
 body {
     max-width: 1300px;
@@ -34,7 +45,10 @@ body {
     color: var(--text-color)
 }
 
-/*This is the header styling wth a gradient*/
+/*
+This is the header styling wth a gradient
+used rem to pad the scale with the font size
+*/
 header {
     background-color: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     color:white;
@@ -80,7 +94,9 @@ footer{
     border-radius: var(--border-radius);
 }
 
-/*Starting the heading styling*/
+/*
+Starting the heading styling
+*/
 
 h1{
     font-size: 3rem;
@@ -111,6 +127,17 @@ blockquote{
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
     color: var(--text-color);
 }
+
+/*Figure and imaging styling*/
+figure {
+    border:0.25rem solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    background-color: white;
+}
+
+
+
 
 /*
 this is for the link styling active, hover, visited
