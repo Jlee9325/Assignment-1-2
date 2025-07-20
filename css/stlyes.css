@@ -9,7 +9,7 @@
     used % for the widths 
     used px for borders and fixed sizing
 
-
+    I mixed the 3 in times due to rems' scaling, px for the percision and the percentages for the flexiblity
 
 */
 
@@ -146,7 +146,19 @@ img{
 }
 
 figcaption{
-    font-size: ;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--text-color);
+}
+
+iframe{
+    display: block;
+    margin: 1rem auto;
+    border: 0.2 solid var(--primary-color);
+    border-radius: var(--border-radius);
+    width: 80%;
+    height: 400px;
 }
 
 
@@ -257,8 +269,9 @@ input[type="submit"]{
 
 @media (max-width: 620px) {
     main, aside{
-        width: 100%;
+        width: 100%; /*this will switch to full width*/
         float: none;
+        padding: 1rem;/* this will increase speed for moblie*/
     
 
 }
