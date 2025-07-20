@@ -24,8 +24,10 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0.5rem;
-    border: 
-
-
-
+    border: 0.25rem solid var(--primary-color);
+    background-color: var(--light-bg);
+    /*The color is just to ensure that my text is black*/
+    color: var(--text-color)
 }
+
+/*This is the header styling wth a gradient*/
