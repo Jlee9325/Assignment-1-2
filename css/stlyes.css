@@ -31,3 +31,22 @@ body {
 }
 
 /*This is the header styling wth a gradient*/
+header {
+    background-color: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color:white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+    /* used numbers to get the black i wanted for the shawdow */
+    box-shadow: 0 0.1rem 0.3 rgba(0,0,0,0);
+}
+
+/*This is for the main content area*/
+
+main{
+
+
+
+    
+}
