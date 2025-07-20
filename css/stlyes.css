@@ -2,5 +2,18 @@
     Student Name: Justin Lee
     Student Number: 8359325
 
-
 */
+
+
+/* Root element Styling with arial font */
+
+:root { 
+    font: normal normal normal 20px/1.5 Arial, Helvetica, sans-serif;
+    /*all color codes were googled for the colors I wanted to use*/
+    --primary-color: #d52b1e;
+    
+
+
+
+
+}
